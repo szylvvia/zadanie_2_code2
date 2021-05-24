@@ -3,16 +3,16 @@
 Zostały wykonane dwie wersje programu CODE2.</h3>
 <ul>
   <li>CODE2V1 - wykorzystuje prosty plik Makefile</li>
-  <li>CCODE2V2 - ulepszona wersja CODE2V1, ponieważ zastosowano narzędzia Autotools</li>
+  <li>CODE2V2 - ulepszona wersja CODE2V1, ponieważ zastosowano narzędzia Autotools</li>
 </ul>
   
-  
-<h2>Jak zainstalować v1?</h2>
 
   Możliwe jest skolonowanie całego repozytorium poleceniem i bash:
     <ul>
   <li>git clone https://github.com/szylvvia/zadanie_2_code2.git</li>
   </ul>
+  
+  <h2>Jak zainstalować v1?</h2>
   
   <h3>Wersja v1</h3>
       <ul>
@@ -40,7 +40,7 @@ Zostały wykonane dwie wersje programu CODE2.</h3>
   <li>tar -zxvf code2v2-3.0.tar.gz</li>
   </ul>
   
- Należy wydać polecenia w terminalu w katalogu code2v1:<br>
+ Należy wydać polecenia w terminalu w katalogu code2v2:<br>
  
  <ol>
   <li>./configure </li>
