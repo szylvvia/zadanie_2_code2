@@ -11,6 +11,7 @@ Zostały wykonane dwie wersje programu CODE2.</h3>
     <ul>
   <li>git clone https://github.com/szylvvia/zadanie_2_code2.git</li>
   </ul>
+  Badż też skorzystanie ze strony internetowej, wersje wsytępują pod dwoma tagami v1, v2 (odpowiednio podstawowa i rozszerzona). Gałąź main zawiera obie wersje.
   
   <h2>Jak zainstalować v1?</h2>
   
