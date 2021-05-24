@@ -48,7 +48,8 @@ Zostały wykonane dwie wersje programu CODE2.</h3>
    <li>sudo make install</li>
   </ol>
   
-   <h2>Jak odistalować v1?</h2> 
-        <ul>
+   <h2>Jak odistalować v2?</h2>
+   Należy wydać polecenia w terminalu w katalogu code2v2:<br><br>
+  <ul>
   <li>sudo make uninstall</li>
   </ul>
