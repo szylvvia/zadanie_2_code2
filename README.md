@@ -7,8 +7,48 @@ Zostały wykonane dwie wersje programu CODE2.</h3>
 </ul>
   
   
-<h2>Jak zainstalować?</h2>
+<h2>Jak zainstalować v1?</h2>
 
-  Aby sklonować rezpoytorium z wersja pierwszą należy wydać polecenie w termianlu, bądż pobrać plik .tar prosto z mojego repozytorium. Podobnie z wersja drugą.
+  Możliwe jest skolonowanie całego repozytorium poleceniem i bash:
+    <ul>
+  <li>git clone https://github.com/szylvvia/zadanie_2_code2.git</li>
+  </ul>
   
+  <h3>Wersja v1</h3>
+      <ul>
+  <li>git clone -b v1 https://github.com/szylvvia/zadanie_2_code2.git</li>
+  <li>tar -zxvf code2v1.tar.gz</li>
+  </ul>
   
+  Należy wydać polecenia w terminalu w katalogu code2v1:<br>
+  <ol>
+  <li>make</li>
+     <li>sudo make install</li>
+     <li> make clean //opcjonalnie w celu usuniecia zbednych plikow</li>
+     <li>export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib</li>
+   </ol>
+    
+ <h2>Jak odistalować v1?</h2> 
+        <ul>
+  <li>sudo make uninstall</li>
+  </ul>
+  
+<h2>Jak zainstalować v2?</h2>
+  <h3>Wersja v2</h3>
+      <ul>
+  <li>git clone -b v2 https://github.com/szylvvia/zadanie_2_code2.git</li>
+  <li>tar -zxvf code2v2-3.0.tar.gz</li>
+  </ul>
+  
+ Należy wydać polecenia w terminalu w katalogu code2v1:<br>
+ 
+ <ol>
+  <li>./configure </li>
+	 <li>make</li>
+   <li>sudo make install</li>
+  </ol>
+  
+   <h2>Jak odistalować v1?</h2> 
+        <ul>
+  <li>sudo make uninstall</li>
+  </ul>
